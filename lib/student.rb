@@ -64,7 +64,7 @@ class Student
       LIMIT 1
     SQL
     DB[:conn].execute(sql, name).map do |row|
-    end.first
+    end
   end 
 
 end
