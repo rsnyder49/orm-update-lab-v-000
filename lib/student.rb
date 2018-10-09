@@ -48,6 +48,10 @@ class Student
     student = self.new(name, grade)
     student.save 
     student 
+  end
+  
+  def self.new_from_db
+    
   end 
 
 end
