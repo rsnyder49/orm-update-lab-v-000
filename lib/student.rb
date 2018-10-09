@@ -40,7 +40,7 @@ class Student
         VALUES (?, ?)
       SQL
       DB[:conn].execute(sql, self.name, self.grade)
-      @id = 
+      @id = DB[:conn]
   end
 
 end
